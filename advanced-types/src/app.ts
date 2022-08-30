@@ -5,8 +5,8 @@ type Admin = {
 
 type Employee = {
   name: string;
-  startDate: Date;
-}
+  startDate: Date; 
+} 
 
 type ElevatedEmployee = Admin & Employee;
 
